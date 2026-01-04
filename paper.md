@@ -48,16 +48,16 @@ No existing open-source solution satisfies all five (Table 2 in full paper).
  enabling deployment in resource-constrained or air-gapped environments—particularly valuable in global South academic and field contexts.
 
 ## State of the Field
-|-------------------|------------|----------|---------------|------------------------|
+
 | Tool              | License    | Footprint| GPU Required? | Scene Graph / Undo?    |
 |-------------------|------------|----------|---------------|------------------------|
 | RViz2             | BSD-3      | ≥400 MB  | Recommended   | Yes / No               |
 | MATLAB            | Commercial | ≥2 GB    | Recommended   | Yes / Yes (GUI only)   |
 | Cairo             | LGPL/MPL   | 5–15 MB  | No            | No / No                |
-| Skia (standalone) | BSD-3      | 10–25 MB | Optional      | No / No 			     |
-| LVGL              | MIT        | ~1 MB    | Optional      | No / No 			     |
+| Skia (standalone) | BSD-3      | 10–25 MB | Optional      | No / No     			     |
+| LVGL              | MIT        | ~1 MB    | Optional      | No / No 		    	     |
 | **Arnaoot**       | **MIT**    |**≤12 MB**| **No**        | **Yes/Yes (infinite)** |
-|-------------------|------------|----------|---------------|------------------------|
+
 *Arnaoot* is not a replacement for Skia or Cairo — instead, it **provides a managed, modular scene-graph layer atop them**, decoupling application logic from rendering backends via the `IRenderTarget` interface.
 
 ## Implementation and Design Highlights
@@ -108,5 +108,6 @@ Benchmarks on real-world OpenStreetMap data (1,117 to 1,159,210 primitives) conf
 
 - **Real-world validation**:  
   Supports interactive pan/zoom/3D rotation of ≥700 k-element maps on Intel i5-5300U (2015 laptop), proving viability for legacy field hardware.
+
 
 All benchmarks, datasets, and reproduction scripts are in the repository.
