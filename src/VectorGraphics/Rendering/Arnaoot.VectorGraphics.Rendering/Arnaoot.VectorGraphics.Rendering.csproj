@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <Authors>Your Name</Authors>
+    <Company>Arnaoot</Company>
+    <Product>Arnaoot Vector Graphics Engine</Product>
+    <Description>Rendering engine, rasterization pipeline, culling, and overlay rendering</Description>
+    <Copyright>Copyright © 2024</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/yourusername/arnaoot-vectorgraphics</RepositoryUrl>
+    <PackageTags>vector;graphics;rendering;rasterization;engine</PackageTags>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Core\Arnaoot.Core\Arnaoot.Core.csproj" />
+    <ProjectReference Include="..\..\Foundation\Arnaoot.VectorGraphics.Core\Arnaoot.VectorGraphics.Core.csproj" />
+    <ProjectReference Include="..\..\Foundation\Arnaoot.VectorGraphics.Abstractions\Arnaoot.VectorGraphics.Abstractions.csproj" />
+    <ProjectReference Include="..\..\Domain\Arnaoot.VectorGraphics.Elements\Arnaoot.VectorGraphics.Elements.csproj" />
+    <ProjectReference Include="..\..\Domain\Arnaoot.VectorGraphics.Scene\Arnaoot.VectorGraphics.Scene.csproj" />
+    <ProjectReference Include="..\..\Platform\Arnaoot.VectorGraphics.Platform.Skia\Arnaoot.VectorGraphics.Platform.Skia.csproj" />
+    <ProjectReference Include="..\..\Platform\Arnaoot.VectorGraphics.Platform.WinForms\Arnaoot.VectorGraphics.Platform.GdiPlus.csproj" />
+    <ProjectReference Include="..\Arnaoot.VectorGraphics.View\Arnaoot.VectorGraphics.View.csproj" />
+  </ItemGroup>
+
+</Project>

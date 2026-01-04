@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Domain\Arnaoot.VectorGraphics.Scene\Arnaoot.VectorGraphics.Scene.csproj" />
+    <ProjectReference Include="..\..\Foundation\Arnaoot.VectorGraphics.Abstractions\Arnaoot.VectorGraphics.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>
