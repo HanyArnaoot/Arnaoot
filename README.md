@@ -8,6 +8,7 @@ Arnaoot is a wireframe-focused, scene-graph-based vector engine for robotics, te
 •	Licensing freedom is non-negotiable (MIT, no LGPL/GPL obligations),
 •	Hardware is constrained (256 MB RAM, CPU-only),
 •	Real-time interaction is required (pan/zoom/updates at ≤50 ms).
+
 It is not a general-purpose renderer like Skia or Cairo.
 It is not a shaded 3D engine like Unity or OGRE.
 It is a managed, modular scene-graph layer — giving you:
@@ -33,7 +34,7 @@ ILayer MapLayer=  MyDataDisplayer.UsedLayerManager.AddLayer ("Map");
 
 ### Prerequisites
 - [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
-
+skiasharp if you want to use it, otherwise you can use gdi+
 ### Build
 ```bash
 git clone https://github.com/HanyArnaoot/Arnaoot.git
