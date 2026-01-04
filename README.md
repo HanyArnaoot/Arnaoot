@@ -1,5 +1,5 @@
 A Lightweight, MIT-Licensed Vector Graphics Engine for Embedded Scientific Visualization
-“Sometimes, progress starts with one person refusing to accept the status quo.”
+“Sometimes, progress starts with one person refusing to accept the status .”
   
 ________________________________________
 🔍 What is Arnaoot?
@@ -17,7 +17,7 @@ It is a managed, modular scene-graph layer — giving you:
 •	🔄 One-line renderer swap: GDI+ (≤1 MB, Windows) or Skia (≤12 MB, cross-platform)
 •	💡 Zero managed dependencies — pure .NET Standard 2.0
 ✅ Why “Arnaoot”?
-This engine is named after its creator, but to honor years of solo development in resource-constrained environments where no existing tool fit. The name is a reminder: sometimes, progress starts with one person refusing to accept the status quo.
+This engine is named after its creator,  to honor years of solo development in resource-constrained environments where no existing tool fit. The name is a reminder: sometimes, progress starts with one person refusing to accept the status quo.
 ________________________________________
 
 🛠️ Quick Start (5 lines)
