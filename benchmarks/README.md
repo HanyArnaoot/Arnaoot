@@ -3,14 +3,11 @@
 This directory contains all datasets, scripts, and raw results used to validate *Arnaoot*’s performance and memory claims in the JOSS paper.
 
 ## 📁 Contents
-|---------------------|-----------------------------------------------------------------------------------------------|
 | File                | Description                                                                                   |
 |---------------------|-----------------------------------------------------------------------------------------------|
 | `scenes/`           | SVG files (OpenStreetMap-derived) used for testing — unsimplified, real-world geographic data |
-| `scripts/`          | Benchmark runner (`BenchmarkRunner.cs`) and data exporter (`ExportToCsv.cs`)                  |
 | `results/`          | Raw timing/memory outputs (CSV format) — one file per backend/test scene                      |
 | `hardware_specs.md` | Detailed hardware and OS configuration used in paper                                          |
-|---------------------|-----------------------------------------------------------------------------------------------|
 
 
 ## 🧪 How to Reproduce
