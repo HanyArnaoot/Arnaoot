@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <Authors>Hany M. Arnaoot</Authors>
+    <Company>Arnaoot</Company>
+    <Product>Arnaoot Vector Graphics Engine</Product>
+    <Description>Graphics-specific geometry primitives (rectangles, bounding boxes) for vector graphics rendering</Description>
+    <Copyright>Copyright © 2026</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/HanyArnaoot/Arnaoot</RepositoryUrl>
+    <PackageTags>vector;graphics;geometry;rectangles;bounds</PackageTags>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Depends on universal core for Vector2D, Vector3D -->
+    <ProjectReference Include="..\..\..\Core\Arnaoot.Core\Arnaoot.Core.csproj" />
+  </ItemGroup>
+
+</Project>

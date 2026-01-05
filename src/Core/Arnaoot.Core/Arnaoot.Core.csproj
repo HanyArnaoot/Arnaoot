@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <Authors>Hany M. Arnaoot</Authors>
+    <Company>Arnaoot</Company>
+    <Product>Arnaoot Core Library</Product>
+    <Description>Universal math primitives (vectors, matrices) used across all Arnaoot projects including path planning and vector graphics</Description>
+    <Copyright>Copyright © 2026</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/HanyArnaoot/Arnaoot</RepositoryUrl>
+    <PackageTags>math;vector;matrix;geometry;core;universal</PackageTags>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+  <!-- ABSOLUTELY NO DEPENDENCIES - This is the universal foundation -->
+
+</Project>
