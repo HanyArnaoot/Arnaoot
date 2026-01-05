@@ -1,0 +1,154 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arnaoot.Core", "src\Core\Arnaoot.Core\Arnaoot.Core.csproj", "{69BE9266-EDAD-272C-2BEC-28605943D500}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arnaoot.VectorGraphics.Core", "src\VectorGraphics\Foundation\Arnaoot.VectorGraphics.Core\Arnaoot.VectorGraphics.Core.csproj", "{CA56EB7C-F6E2-FCA3-FA97-D764447E1FA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arnaoot.VectorGraphics.Abstractions", "src\VectorGraphics\Foundation\Arnaoot.VectorGraphics.Abstractions\Arnaoot.VectorGraphics.Abstractions.csproj", "{09DECAF9-6766-A858-B351-1DD518E5202F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arnaoot.VectorGraphics.Elements", "src\VectorGraphics\Domain\Arnaoot.VectorGraphics.Elements\Arnaoot.VectorGraphics.Elements.csproj", "{15026C9C-1CDD-E7AB-FF5E-57CA0043878B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arnaoot.VectorGraphics.Scene", "src\VectorGraphics\Domain\Arnaoot.VectorGraphics.Scene\Arnaoot.VectorGraphics.Scene.csproj", "{27FA9C17-3DE6-DA62-EC1F-153E66B0090C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arnaoot.VectorGraphics.View", "src\VectorGraphics\Rendering\Arnaoot.VectorGraphics.View\Arnaoot.VectorGraphics.View.csproj", "{E784ECAE-21B3-8200-33EA-0DEA96412C50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arnaoot.VectorGraphics.Rendering", "src\VectorGraphics\Rendering\Arnaoot.VectorGraphics.Rendering\Arnaoot.VectorGraphics.Rendering.csproj", "{6A7B804E-7F9C-51AE-C12D-6031B89FA6FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arnaoot.VectorGraphics.CLI", "apps\Arnaoot.VectorGraphics.CLI\Arnaoot.VectorGraphics.CLI.csproj", "{FEC9B6F0-626F-4ACF-8397-E8F75C3C44D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VectorGraphics", "VectorGraphics", "{19FA3C8B-8ACC-489B-ABB3-95A2814FB23E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "apps", "apps", "{282A8E47-998D-4477-9C0F-B5B42EC78E04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arnaoot.VectorGraphics.Platform.Skia", "src\VectorGraphics\Platform\Arnaoot.VectorGraphics.Platform.Skia\Arnaoot.VectorGraphics.Platform.Skia.csproj", "{69DE3951-7D25-5114-CCAA-C79A07153954}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arnaoot.VectorGraphics.Platform.GdiPlus", "src\VectorGraphics\Platform\Arnaoot.VectorGraphics.Platform.WinForms\Arnaoot.VectorGraphics.Platform.GdiPlus.csproj", "{994BAD8A-1059-D100-0A77-BF81BD64350F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arnaoot.VectorGraphics.Formats", "src\VectorGraphics\Formats\Arnaoot.VectorGraphics.Formats\Arnaoot.VectorGraphics.Formats.csproj", "{022C80CB-3C88-44FC-BD0B-4C74858B545F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arnaoot.VectorGraphics.Commands", "src\VectorGraphics\commands\Arnaoot.VectorGraphics.Commands\Arnaoot.VectorGraphics.Commands.csproj", "{3B81B287-7E5B-4FD6-ACB0-642853C00272}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{45F390A7-3C75-49FB-AF42-9EF4C0F7FC61}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{F8C17F4F-E75F-4956-A430-54AC790B558C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Platform", "Platform", "{11528B4B-3146-41F0-B95F-6BC4456DC839}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Rendering", "Rendering", "{5DABC95D-992D-4C80-BFCE-FAAE955B860E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7B459FAD-E440-4BA3-8B61-F07790817FE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vectorDrawEngineWinform", "apps\vectorDrawEngineWinform\vectorDrawEngineWinform.csproj", "{4F96E1FC-2F95-4022-BA50-44C6AA164874}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VectorDrawAvoloniaUI", "apps\VectorDrawAvoloniaUI\VectorDrawAvoloniaUI.csproj", "{67942738-96B4-4B4F-A4BE-5562508186AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VectorDrawControl", "src\VectorGraphics\VectorDraw\VectorDrawControl.csproj", "{38569A65-33E9-41FE-9970-03A86BDE030E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arnaoot.VectorGraphics.Platform.SVG", "src\VectorGraphics\Platform\RenderTargetSvgFile\Arnaoot.VectorGraphics.Platform.SVG.csproj", "{EFAFA7E5-237B-460F-9C4F-AEA196D68DB2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69BE9266-EDAD-272C-2BEC-28605943D500}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69BE9266-EDAD-272C-2BEC-28605943D500}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69BE9266-EDAD-272C-2BEC-28605943D500}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69BE9266-EDAD-272C-2BEC-28605943D500}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA56EB7C-F6E2-FCA3-FA97-D764447E1FA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA56EB7C-F6E2-FCA3-FA97-D764447E1FA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA56EB7C-F6E2-FCA3-FA97-D764447E1FA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA56EB7C-F6E2-FCA3-FA97-D764447E1FA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09DECAF9-6766-A858-B351-1DD518E5202F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09DECAF9-6766-A858-B351-1DD518E5202F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09DECAF9-6766-A858-B351-1DD518E5202F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09DECAF9-6766-A858-B351-1DD518E5202F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15026C9C-1CDD-E7AB-FF5E-57CA0043878B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15026C9C-1CDD-E7AB-FF5E-57CA0043878B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15026C9C-1CDD-E7AB-FF5E-57CA0043878B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15026C9C-1CDD-E7AB-FF5E-57CA0043878B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27FA9C17-3DE6-DA62-EC1F-153E66B0090C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27FA9C17-3DE6-DA62-EC1F-153E66B0090C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27FA9C17-3DE6-DA62-EC1F-153E66B0090C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27FA9C17-3DE6-DA62-EC1F-153E66B0090C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E784ECAE-21B3-8200-33EA-0DEA96412C50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E784ECAE-21B3-8200-33EA-0DEA96412C50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E784ECAE-21B3-8200-33EA-0DEA96412C50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E784ECAE-21B3-8200-33EA-0DEA96412C50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A7B804E-7F9C-51AE-C12D-6031B89FA6FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A7B804E-7F9C-51AE-C12D-6031B89FA6FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A7B804E-7F9C-51AE-C12D-6031B89FA6FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A7B804E-7F9C-51AE-C12D-6031B89FA6FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEC9B6F0-626F-4ACF-8397-E8F75C3C44D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEC9B6F0-626F-4ACF-8397-E8F75C3C44D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEC9B6F0-626F-4ACF-8397-E8F75C3C44D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEC9B6F0-626F-4ACF-8397-E8F75C3C44D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69DE3951-7D25-5114-CCAA-C79A07153954}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69DE3951-7D25-5114-CCAA-C79A07153954}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69DE3951-7D25-5114-CCAA-C79A07153954}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69DE3951-7D25-5114-CCAA-C79A07153954}.Release|Any CPU.Build.0 = Release|Any CPU
+		{994BAD8A-1059-D100-0A77-BF81BD64350F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{994BAD8A-1059-D100-0A77-BF81BD64350F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{994BAD8A-1059-D100-0A77-BF81BD64350F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{994BAD8A-1059-D100-0A77-BF81BD64350F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{022C80CB-3C88-44FC-BD0B-4C74858B545F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{022C80CB-3C88-44FC-BD0B-4C74858B545F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{022C80CB-3C88-44FC-BD0B-4C74858B545F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{022C80CB-3C88-44FC-BD0B-4C74858B545F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B81B287-7E5B-4FD6-ACB0-642853C00272}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B81B287-7E5B-4FD6-ACB0-642853C00272}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B81B287-7E5B-4FD6-ACB0-642853C00272}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B81B287-7E5B-4FD6-ACB0-642853C00272}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F96E1FC-2F95-4022-BA50-44C6AA164874}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F96E1FC-2F95-4022-BA50-44C6AA164874}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F96E1FC-2F95-4022-BA50-44C6AA164874}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F96E1FC-2F95-4022-BA50-44C6AA164874}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67942738-96B4-4B4F-A4BE-5562508186AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67942738-96B4-4B4F-A4BE-5562508186AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67942738-96B4-4B4F-A4BE-5562508186AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67942738-96B4-4B4F-A4BE-5562508186AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38569A65-33E9-41FE-9970-03A86BDE030E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38569A65-33E9-41FE-9970-03A86BDE030E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38569A65-33E9-41FE-9970-03A86BDE030E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38569A65-33E9-41FE-9970-03A86BDE030E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFAFA7E5-237B-460F-9C4F-AEA196D68DB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFAFA7E5-237B-460F-9C4F-AEA196D68DB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFAFA7E5-237B-460F-9C4F-AEA196D68DB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFAFA7E5-237B-460F-9C4F-AEA196D68DB2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CA56EB7C-F6E2-FCA3-FA97-D764447E1FA7} = {F8C17F4F-E75F-4956-A430-54AC790B558C}
+		{09DECAF9-6766-A858-B351-1DD518E5202F} = {F8C17F4F-E75F-4956-A430-54AC790B558C}
+		{15026C9C-1CDD-E7AB-FF5E-57CA0043878B} = {45F390A7-3C75-49FB-AF42-9EF4C0F7FC61}
+		{27FA9C17-3DE6-DA62-EC1F-153E66B0090C} = {45F390A7-3C75-49FB-AF42-9EF4C0F7FC61}
+		{E784ECAE-21B3-8200-33EA-0DEA96412C50} = {5DABC95D-992D-4C80-BFCE-FAAE955B860E}
+		{6A7B804E-7F9C-51AE-C12D-6031B89FA6FB} = {5DABC95D-992D-4C80-BFCE-FAAE955B860E}
+		{FEC9B6F0-626F-4ACF-8397-E8F75C3C44D4} = {282A8E47-998D-4477-9C0F-B5B42EC78E04}
+		{19FA3C8B-8ACC-489B-ABB3-95A2814FB23E} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{69DE3951-7D25-5114-CCAA-C79A07153954} = {11528B4B-3146-41F0-B95F-6BC4456DC839}
+		{994BAD8A-1059-D100-0A77-BF81BD64350F} = {11528B4B-3146-41F0-B95F-6BC4456DC839}
+		{022C80CB-3C88-44FC-BD0B-4C74858B545F} = {7B459FAD-E440-4BA3-8B61-F07790817FE5}
+		{3B81B287-7E5B-4FD6-ACB0-642853C00272} = {7B459FAD-E440-4BA3-8B61-F07790817FE5}
+		{45F390A7-3C75-49FB-AF42-9EF4C0F7FC61} = {7B459FAD-E440-4BA3-8B61-F07790817FE5}
+		{F8C17F4F-E75F-4956-A430-54AC790B558C} = {7B459FAD-E440-4BA3-8B61-F07790817FE5}
+		{11528B4B-3146-41F0-B95F-6BC4456DC839} = {7B459FAD-E440-4BA3-8B61-F07790817FE5}
+		{5DABC95D-992D-4C80-BFCE-FAAE955B860E} = {7B459FAD-E440-4BA3-8B61-F07790817FE5}
+		{7B459FAD-E440-4BA3-8B61-F07790817FE5} = {19FA3C8B-8ACC-489B-ABB3-95A2814FB23E}
+		{4F96E1FC-2F95-4022-BA50-44C6AA164874} = {282A8E47-998D-4477-9C0F-B5B42EC78E04}
+		{67942738-96B4-4B4F-A4BE-5562508186AA} = {282A8E47-998D-4477-9C0F-B5B42EC78E04}
+		{38569A65-33E9-41FE-9970-03A86BDE030E} = {7B459FAD-E440-4BA3-8B61-F07790817FE5}
+		{EFAFA7E5-237B-460F-9C4F-AEA196D68DB2} = {11528B4B-3146-41F0-B95F-6BC4456DC839}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E86224E4-2589-4EF6-BAB9-914E657247D4}
+	EndGlobalSection
+EndGlobal

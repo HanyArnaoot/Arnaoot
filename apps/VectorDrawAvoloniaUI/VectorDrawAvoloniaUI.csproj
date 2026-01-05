@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <BuiltInComInteropSupport>true</BuiltInComInteropSupport>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <AvaloniaUseCompiledBindingsByDefault>true</AvaloniaUseCompiledBindingsByDefault>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Avalonia" Version="11.3.6" />
+    <PackageReference Include="Avalonia.Desktop" Version="11.3.6" />
+    <PackageReference Include="Avalonia.Themes.Fluent" Version="11.3.6" />
+    <PackageReference Include="Avalonia.Fonts.Inter" Version="11.3.6" />
+    <!--Condition below is needed to remove Avalonia.Diagnostics package from build output in Release configuration.-->
+    <PackageReference Include="SkiaSharp" Version="3.119.2-preview.1" />
+    <PackageReference Include="SkiaSharp.NativeAssets.Linux" Version="3.119.2-preview.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Core\Arnaoot.Core\Arnaoot.Core.csproj" />
+    <ProjectReference Include="..\..\src\VectorGraphics\Domain\Arnaoot.VectorGraphics.Scene\Arnaoot.VectorGraphics.Scene.csproj" />
+    <ProjectReference Include="..\..\src\VectorGraphics\Formats\Arnaoot.VectorGraphics.Formats\Arnaoot.VectorGraphics.Formats.csproj" />
+    <ProjectReference Include="..\..\src\VectorGraphics\Platform\Arnaoot.VectorGraphics.Platform.Skia\Arnaoot.VectorGraphics.Platform.Skia.csproj" />
+    <ProjectReference Include="..\..\src\VectorGraphics\Rendering\Arnaoot.VectorGraphics.Rendering\Arnaoot.VectorGraphics.Rendering.csproj" />
+    <ProjectReference Include="..\..\src\VectorGraphics\Rendering\Arnaoot.VectorGraphics.View\Arnaoot.VectorGraphics.View.csproj" />
+  </ItemGroup>
+</Project>
