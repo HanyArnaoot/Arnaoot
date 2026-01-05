@@ -18,7 +18,13 @@ It is a managed, modular scene-graph layer — giving you:
 •	🔄 One-line renderer swap: GDI+ (≤1 MB, Windows) or Skia (≤12 MB, cross-platform)
 •	💡 Zero managed dependencies — pure .NET Standard 2.0
 ✅ Why “Arnaoot”?
-This engine is named after its creator,  to honor years of solo development in resource-constrained environments where no existing tool fit. The name is a reminder: sometimes, progress starts with one person refusing to accept the status quo.
+This engine is named after its creator,  to honor years of solo development in resource-constrained environments where no existing tool fit. The name is a reminder: sometimes, progress starts with one person refusing to accept the status.
+
+
+
+For more information, see the video:
+https://drive.google.com/file/d/102EGYyS2V5l56GzC0r2CK3rzeIrp1Cle/view?usp=sharing
+
 ________________________________________
 
 🛠️ Quick Start (5 lines)
