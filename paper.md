@@ -120,8 +120,11 @@ The author confirms no institutional funding was received. Development was self-
 
 Benchmarks on real-world OpenStreetMap data (1,117 to 1,159,210 primitives) confirm *Arnaoot* meets all design requirements:
 
-- **Memory efficiency**: **152–168 bytes/element** (including scene graph, octree, undo metadata), with linear scaling (R² = 0.9995).  
-  → 1.16 M elements fit in **163 MB RAM** — well within 256 MB embedded constraints.
+- **Memory efficiency**: **152–168 bytes/element** (including scene graph, octree, undo metadata), with linear scaling (R² = 0.9995).
+- 
+Memory consumption was measured by forcing full garbage collection before and after scene loading, then calculating the difference divided by element count.
+
+This isolates the engine's per-element overhead from .NET runtime baseline and temporary allocation during parsing.
 
 - **CPU-first performance**:  
   - **>320 k primitives/sec** at ≥100 k elements (pure software),  
@@ -142,6 +145,7 @@ Benchmarks on real-world OpenStreetMap data (1,117 to 1,159,210 primitives) conf
 
 
 All benchmarks, datasets, and reproduction scripts are in the repository.
+
 
 
 
