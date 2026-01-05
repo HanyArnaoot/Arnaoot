@@ -84,12 +84,12 @@ implement `IRenderTarget`. Swapping requires **exactly one line**:
             _renderManager = new RenderManager(_renderTarget);
             ScheduleInvalidate(InvalidationLevel.Full); //the line that sends draw command and plots thing to screen
 
-Per-layer lazy octree: Octrees rebuild only when layers change. Static layers (e.g., maps) incur zero CPU cost during robot motion. Culling stays ≤23% of frame time even at 1.16 M elements.
-Zero-allocation pooling: A CachingHelper reuses immutable pens, brushes, and fonts via string keys — achieving zero GC allocations after warm-up (<80 ms), critical for jitter-free rendering.
-Screen-space clipping before command emission: Liang–Barsky clipping in the scene graph reduces backend draw calls by 60–95%, preventing overflow during extreme zoom (e.g., 10 km → 1 m).
+3-Per-layer lazy octree: Octrees rebuild only when layers change. Static layers (e.g., maps) incur zero CPU cost during robot motion. Culling stays ≤23% of frame time even at 1.16 M elements.
+4-Zero-allocation pooling: A CachingHelper reuses immutable pens, brushes, and fonts via string keys — achieving zero GC allocations after warm-up (<80 ms), critical for jitter-free rendering.
+5- Screen-space clipping before command emission: Liang–Barsky clipping in the scene graph reduces backend draw calls by 60–95%, preventing overflow during extreme zoom (e.g., 10 km → 1 m).
 The engine supports 3D wireframe visualization (orthographic & perspective), though intentionally omits per-pixel depth sorting to preserve determinism, layer semantics, and CPU-first performance. It is optimized for polylines (e.g., trajectories, OSM roads), which constitute >95% of robotics GCS workloads.
 
-Performance (Empirical Validation)
+Performance (Empirical Validation):-
 Benchmarks on real-world OpenStreetMap data (1.1k–1.16M elements) on an Intel i7–1185G7 show:
 
 Memory: Linear scaling (R² = 0.9995), 152 B/element at scale (176 MB for 1.16 M elements).
@@ -138,4 +138,5 @@ Benchmarks on real-world OpenStreetMap data (1,117 to 1,159,210 primitives) conf
 
 
 All benchmarks, datasets, and reproduction scripts are in the repository.
+
 
