@@ -40,7 +40,7 @@ ILayer MapLayer=  MyDataDisplayer.UsedLayerManager.AddLayer ("Map");
 
 ### Prerequisites
 - [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
-skiasharp if you want to use it, otherwise you can use gdi+
+- skiasharp if you want to use it, otherwise you can use GDI+
 ### Build
 ```bash
 git clone https://github.com/HanyArnaoot/Arnaoot.git
